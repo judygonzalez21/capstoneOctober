@@ -62,17 +62,19 @@ p{
 .jesusCross{
   height: 500px;
   width: 100%;
-  margin-top: -170px;
-  float: right;}
+  margin-top: -170px;}
 
 .icons{
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
 }
 
 .portfolio{
   width: 100%;
   height: 40%;
-  padding-left: 80px;
+  padding-left: 30px;
 }
 
 h2{
@@ -83,8 +85,30 @@ h2{
   text-align: center;
 }
 
+.basketball{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lips{
+  margin-left: auto;
+  margin-right: auto;
+
+}
 .applePage{
   height: 700px;
   width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
   cursor: grab;
+  align-items: center;
+}
+
+.postcard{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
 }
