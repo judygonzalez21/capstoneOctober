@@ -11,7 +11,7 @@ body{
   height: vh;
   background: url("/media/background.png");
   background-position: center;
-  background-color: #D7D7D7;
+  /* background-color: #D7D7D7; */
 }
 h1{
   height: 70px;
