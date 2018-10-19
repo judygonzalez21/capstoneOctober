@@ -1,4 +1,16 @@
 /* MASTER CSS */
+
+@font-face {
+    font-family: Juicy;
+    src: url('type/Juicy-Regular.woff2') format('woff2'),
+         url('type/Juicy-Regular.woff') format('woff'),
+         url('type/Juicy-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+
+}
+
 body{
   width: 100%;
   height: 100vh;
@@ -15,7 +27,7 @@ h1{
 
   font-size: 4em;
   font-weight: bold;
-  font-family: juicy, playfair display, times, serif;
+  font-family: Juicy, playfair display, times, serif;
   text-align: center;
   background-color: #C0BEBB;
 }
